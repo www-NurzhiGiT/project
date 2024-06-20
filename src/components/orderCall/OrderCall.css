@@ -1,0 +1,79 @@
+/* Roboto Serif */
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.OrderCall {
+  height: 452px;
+  background-color: #7dd83f;
+  display: grid;
+  place-items: center;
+}
+.section {
+  width: 1109px;
+  height: 252px;
+  margin-top: 85px;
+}
+/* --  --  --  --  */
+.top {
+  width: 825px;
+  height: 92px;
+  position: relative;
+  left: 150px;
+  text-align: center;
+  cursor: context-menu;
+}
+.top h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  font-family: Roboto Serif;
+}
+.top p {
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  font-family: Roboto Serif;
+}
+/* --  -- */
+.bottom {
+  width: 482px;
+  height: 120px;
+  position: relative;
+  left: 330px;
+  top: 35px;
+}
+.bottom .tel {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  cursor: context-menu;
+  font-family: Roboto Serif;
+}
+.tel input {
+  width: 240px;
+  /* height: 56px; */
+  font-size: 17px;
+  padding: 10px 5px 10px 20px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+.tel button {
+  width: 200px;
+  padding: 20px 32px 20px 32px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: #00aca5;
+  color: #fff;
+  cursor: pointer;
+}
+.tel button:active {
+  background-color: #fff;
+  color: #00aca5;
+}

@@ -1,0 +1,109 @@
+/* Roboto Serif */
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.Products {
+  height: 590px;
+  background-color: #7dd83f;
+  display: grid;
+  place-items: center;
+}
+/* --  --  --  */
+.Product {
+  width: 1110px;
+  height: 390px;
+  display: grid;
+}
+/* --  --  --  */
+.Product-Top {
+  width: 800px;
+  text-align: center;
+  position: relative;
+  top: 10%;
+  left: 13%;
+}
+.Product-Top h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+  font-family: Roboto Serif;
+  cursor: context-menu;
+}
+.Product-Top p {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: Roboto Serif;
+  cursor: context-menu;
+  position: relative;
+  top: 15px;
+}
+/* --  --  --  */
+.Product-Bottom {
+  width: 100%;
+  height: 188px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  position: relative;
+  top: 45px;
+}
+.one,
+.two,
+.three,
+.four {
+  width: 180px;
+  height: 120px;
+  border-radius: 16px;
+  border: 1px solid #ffffff;
+  padding: 28px;
+  background-color: #ffffff;
+}
+.one p,
+.two p,
+.three p,
+.four p {
+  font-size: 15px;
+  font-family: Roboto Serif;
+  font-weight: 600;
+  cursor: context-menu;
+}
+.one h4,
+.two h4,
+.three h4,
+.four h4 {
+  position: relative;
+  top: 20px;
+  font-size: 16px;
+  font-family: Roboto Serif;
+  font-weight: 600;
+  color: #00aca5;
+  cursor: context-menu;
+}
+/* --  --  --  */
+.one .btn,
+.two .btn,
+.three .btn,
+.four .btn {
+  width: 184px;
+  height: 40px;
+  position: relative;
+  top: 43px;
+  font-size: 14px;
+  font-family: Roboto Serif;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #00aca5;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+.four del {
+  color: gray;
+}
+.one .btn:hover,
+.two .btn:hover,
+.three .btn:hover,
+.four .btn:hover {
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid #00aca5;
+}

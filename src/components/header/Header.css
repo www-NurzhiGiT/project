@@ -1,0 +1,95 @@
+/* Roboto Serif */
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+}
+.header {
+  /* width: 1523px; */
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.logo {
+  margin: 0;
+  width: 320px;
+  height: 60px;
+  font-size: 28px;
+  font-family: Roboto Serif;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+  padding: 0 0 0 15px;
+  cursor: context-menu;
+}
+
+.menu {
+  left: 200px;
+  position: relative;
+  right: 30px;
+  width: 950px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul {
+  width: 530px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu li {
+  /* position: relative; */
+  font-family: Roboto Serif;
+  width: 120px;
+  list-style: none;
+  cursor: pointer;
+  font-size: 15.5px;
+  text-align: center;
+  font-weight: 500;
+}
+.menu li:hover {
+  color: #00aca5;
+  transition: 0.7s;
+}
+
+.menu-number {
+  width: 155px;
+  height: 46px;
+  position: relative;
+  left: 40px;
+  cursor: context-menu;
+}
+.menu-number p {
+  margin-left: 35px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.menu-number h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.menu-btn {
+  position: relative;
+  left: 15px;
+}
+.menu-btn .btn {
+  width: 180px;
+  height: 44px;
+  background: #00aca5;
+  color: #fff;
+  font-family: Roboto Serif;
+  padding: 12px 24px 12px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+}
+.menu-btn .btn:hover {
+  text-decoration: underline;
+}

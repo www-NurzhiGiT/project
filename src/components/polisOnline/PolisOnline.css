@@ -1,0 +1,94 @@
+/* Roboto Serif */
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.PolisOnline {
+  height: 848px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7dd83f;
+}
+.conteiner {
+  width: 540px;
+}
+.polis {
+  width: 540px;
+  height: 92px;
+
+  text-align: center;
+}
+.polis h1 {
+  font-size: 48px;
+  color: #fff;
+  cursor: context-menu;
+}
+.polis p {
+  font-size: 18px;
+  color: #fff;
+  cursor: context-menu;
+}
+/* -- --  */
+.form-in .inputt {
+  width: 97%;
+  height: 47px;
+  margin: 7px 0;
+  font-size: 17px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding: 6px 0px 6px 20px;
+}
+.form-in p {
+  font-size: 18px;
+  color: #fff;
+  font-family: Roboto Serif;
+  cursor: context-menu;
+  position: relative;
+  top: 10px;
+}
+.radi {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+  position: relative;
+  top: 12px;
+}
+.radi p {
+  position: relative;
+  left: 20px;
+  cursor: context-menu;
+}
+.radi .inp {
+  width: 24px;
+  height: 24px;
+  font-size: 18px;
+  position: relative;
+  top: 11px;
+  display: flex;
+  border: 1px solid gray;
+}
+/* -- ---   */
+.div-button {
+  position: relative;
+  top: 75px;
+}
+.div-button .btn {
+  width: 540px;
+  height: 56px;
+  padding: 6px 100px 6px 100px;
+  font-size: 17px;
+  background-color: #00aca5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-family: Roboto Serif;
+  cursor: pointer;
+}
+.div-button .btn:hover {
+  border: 2px solid #00aca5;
+  background-color: #fff;
+  color: #00aca5;
+}
+.div-button p {
+  font-size: 13px;
+  text-align: center;
+}

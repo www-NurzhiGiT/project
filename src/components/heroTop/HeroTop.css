@@ -1,0 +1,72 @@
+/* Roboto Serif */
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.Hero-Top {
+  /* width: 1522px; */
+  height: 798px;
+  background: #7dd83f;
+  position: relative;
+}
+/* --  --  --  */
+.image {
+  width: 705px;
+  height: 798px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* --  --  --  */
+.hero-title {
+  width: 445px;
+  height: 426px;
+  position: absolute;
+  top: 170px;
+  right: 210px;
+}
+.hero-title h1 {
+  font-size: 64px;
+  color: #fff;
+  font-family: Roboto Serif;
+  cursor: context-menu;
+}
+.hero-title p {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 20px;
+  font-family: Roboto Serif;
+  cursor: context-menu;
+}
+/* --  --  --  */
+.hero-btn {
+  margin-top: 40px;
+  position: relative;
+}
+.hero-btn .btn {
+  width: 225px;
+  height: 56px;
+  background: #00aca5;
+  color: #fff;
+  font-family: Roboto Serif;
+  padding: 12px 24px 12px 0px;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+}
+.hero-btn i {
+  width: 24px;
+  height: 24px;
+  font-size: 30px;
+  position: absolute;
+  left: 175px;
+  bottom: 19px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero-btn i:active,
+.hero-btn .btn:active {
+  color: #00aca5;
+  background-color: #fff;
+}
